@@ -6,18 +6,20 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #E5E5E5;
+   box-shadow: 0 3px 3px 1px rgba(0,0,0,.3);
 }
 
 
 .topnav a {
-  float: left;
+float: left;
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
+
 
 .topnav a:hover {
   background-color: #ddd;
@@ -31,7 +33,8 @@ body {
 
 .LO {
     font-family: 'Damion', cursive;
-    float: left;
+    
+
 }
 .topnav .icon {
   display: none;
